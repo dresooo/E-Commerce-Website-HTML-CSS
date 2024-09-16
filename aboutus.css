@@ -1,0 +1,248 @@
+* { padding: 0; margin: 0;}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+}
+.checked {
+  color: orange;
+}
+
+/* menu */
+menu {
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  color: black;
+}
+
+menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  line-height: 60px;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  text-align: justify;
+}
+
+nav ul li a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+nav ul li ul {
+  float: right;
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover > ul {
+  z-index: 1;
+  float: right;
+  background-color: white;
+  display: block;
+}
+
+nav {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+}
+
+nav ul li ul {
+  position: absolute;
+}
+
+nav ul li ul li {
+  float: none;
+  position: relative;
+  text-align: left;
+}
+nav ul ul ul {
+  right: 100%;
+  top: 0%;
+  width: 100px;
+}
+
+/* body */
+.bgcolor{
+  background-color: #F4F6F3;
+  height: 410px;
+}
+
+.conten .kiri{
+  float: left;
+  width: 500px;
+  height: 300px;
+
+}
+.conten .kiri h2{
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.conten .kiri h5{
+ font-weight: lighter;
+}
+.conten .kanan{
+  float: left;
+  width: 500px;
+  height: 300px;
+
+}
+
+.conten .kanan img{
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+
+
+
+footer {
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .containerfooter {
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+  background-color: black
+}
+
+footer .kiri {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+footer .kiri .logo img{
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+footer .kiri .logo .dua {
+  left: 5%;
+}
+footer .kiri .logo .satu {
+  left: 0%;
+}
+footer .kiri .logo .tiga {
+  left: 10%;
+}
+footer .kiri .logo .empat {
+  left: 15%;
+}
+
+footer .tengah {
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
+  width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .kanan {
+  margin-top: 50px;
+  float: right;
+  margin-left:20px;
+  width: 300px;
+  height: 300px;
+}
+
+footer h2{
+  font-size: 20px
+}
+footer h3{
+  font-size: 15px;
+  font-weight: 15;
+}
+footer .tengah  img{
+  float: left;
+  width: 50px;
+}
+footer .tengah h3{
+  float: left;
+}
+.footer .tengah h3{
+  margin-top: 40px;
+}
+
+.borderabu {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.newstextinfo {
+  margin-left: 10px;
+}
+
+.tengahsatu, .tengahdua, .tengahtiga {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  height: 300px;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  border-top: solid gray 1px;
+}
+.copyright h5{
+  margin-top: 25px;
+  font-weight: lighter;
+  color: grey;
+  font-weight: bold;
+}
+.containerfooter .kiri .logo img:hover{
+  width: 51px;
+}
+
+input{
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.containerform{
+  height: 30px;
+}
+
+footer .kanan a{
+  margin-bottom: 16px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+footer .kanan h3{
+  margin-top: 49px;
+  font-size: 13px;
+}

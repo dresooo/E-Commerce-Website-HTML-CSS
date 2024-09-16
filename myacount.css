@@ -1,0 +1,322 @@
+* { padding: 0; margin: 0;}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+}
+
+.bgcolor{
+  padding-top: 50px;
+  background-color: #F4F6F3;
+  height: 700px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* menu */
+menu {
+
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  color: black;
+}
+
+menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  line-height: 60px;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  text-align: justify;
+}
+
+nav ul li a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+nav ul li ul {
+  float: right;
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover > ul {
+  z-index: 1;
+  float: right;
+  background-color: white;
+  display: block;
+}
+
+nav {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+}
+
+nav ul li ul {
+  position: absolute;
+}
+
+nav ul li ul li {
+  float: none;
+  position: relative;
+  text-align: left;
+}
+nav ul ul ul {
+  right: 100%;
+  top: 0%;
+  width: 100px;
+}
+/* body */
+
+.myacc {
+  padding-left: 50px;
+  padding-top: 50px;
+  width: 950px;
+  margin: auto;
+  height: 500px;
+  background-color: white;
+}
+
+.myacc h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.myacc h3{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.username {
+  width: 800px;
+  height: 100px;
+
+}
+.username h5{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.username input{
+  border-radius: 3px;
+  width: 890px;
+}
+.password input{
+  border-radius: 3px;
+  width: 890px;
+}
+.password h5{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.password{
+  margin-top: 10px;
+  width: 800px;
+  height: 100px;
+
+}
+.login {
+  margin-top: 10px;
+  width: 900px;
+ 
+  height: 50px;
+}
+.login a{
+  float: left;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+.login .check input{
+ margin-top: 15px;
+  margin-left: 20px;
+}
+.login .check label{
+  float: left;
+  margin-top: 13px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.login .lost {
+  padding: 0%;
+  margin-left: 1px;
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .containerfooter {
+  margin: auto;
+
+  width: 1000px;
+  height: 450px;
+  background-color: black
+}
+
+footer .kiri {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+footer .kiri .logo img{
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+footer .kiri .logo .dua {
+  left: 5%;
+}
+footer .kiri .logo .satu {
+  left: 0%;
+}
+footer .kiri .logo .tiga {
+  left: 10%;
+}
+footer .kiri .logo .empat {
+  left: 15%;
+}
+
+footer .tengah {
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
+  width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .kanan {
+  margin-top: 50px;
+  float: right;
+  margin-left:20px;
+  width: 300px;
+  height: 300px;
+}
+
+footer h2{
+  font-size: 20px
+}
+footer h3{
+  font-size: 15px;
+  font-weight: 15;
+}
+footer .tengah  img{
+  float: left;
+  width: 50px;
+}
+footer .tengah h3{
+  float: left;
+}
+.footer .tengah h3{
+  margin-top: 40px;
+}
+
+.borderabu {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.newstextinfo {
+  margin-left: 10px;
+}
+
+.tengahsatu, .tengahdua, .tengahtiga {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  height: 300px;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  border-top: solid gray 1px;
+}
+.copyright h5{
+  margin-top: 25px;
+  font-weight: lighter;
+  color: grey;
+  font-weight: bold;
+}
+.containerfooter .kiri .logo img:hover{
+  width: 51px;
+}
+
+input{
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.containerform{
+  height: 30px;
+}
+
+footer .kanan a{
+  margin-bottom: 16px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+footer .kanan h3{
+  margin-top: 49px;
+  font-size: 13px;
+}

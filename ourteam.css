@@ -1,0 +1,307 @@
+* { padding: 0; margin: 0;}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+}
+
+
+.checked {
+  color: orange;
+}
+/* menu */
+menu {
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  color: black;
+}
+
+menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  line-height: 60px;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  text-align: justify;
+}
+
+nav ul li a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+nav ul li ul {
+  float: right;
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover > ul {
+  z-index: 1;
+  float: right;
+  background-color: white;
+  display: block;
+}
+
+nav {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+}
+
+nav ul li ul {
+  position: absolute;
+}
+
+nav ul li ul li {
+  float: none;
+  position: relative;
+  text-align: left;
+}
+nav ul ul ul {
+  right: 100%;
+  top: 0%;
+  width: 100px;
+}
+
+.bgcolor {
+  background-color:  #F4F6F3;
+  height: 220px;
+}
+.meet {
+  padding-top: 50px;
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+}
+.meet .kiri {
+  width: 300px;
+  float: left;
+}
+.meet .kiri h2{
+  padding-left: 30px;
+  border-left: solid black 3px;
+  font-size: 50px;
+  float: left;
+}
+.meet .tengah {
+  width: 300px;
+  float: left;
+}
+.meet .tengah h3{
+  margin-top: 35px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.meet .kanan {
+  width: 300px;
+  float: left;
+}
+.meet .kanan h3{
+  margin-left: 30px;
+  margin-top: 35px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.founder {
+  width: 1000px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.galeri  {
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 100px;
+
+}
+.galeri img {
+
+  width: 300px;
+  height: 500px;
+}
+
+.join {
+  padding-top: 50px;
+  width: 1000px;
+  margin-top: 50px;
+  height: 150px;
+  background-color: black;
+  margin-bottom: 100px;
+}
+.join .kiri {
+  margin-left: 50px;
+  width: 300px;
+  float: left;
+}
+.join h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.join a{
+  margin-top: 50px;
+  margin-left: 450px;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.join .kanan {
+  margin-top: 35px;
+}
+
+
+
+
+
+/* footer */
+footer {
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .containerfooter {
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+  background-color: black
+}
+
+footer .kiri {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+footer .kiri .logo img{
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+footer .kiri .logo .dua {
+  left: 5%;
+}
+footer .kiri .logo .satu {
+  left: 0%;
+}
+footer .kiri .logo .tiga {
+  left: 10%;
+}
+footer .kiri .logo .empat {
+  left: 15%;
+}
+
+footer .tengah {
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
+  width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .kanan {
+  margin-top: 50px;
+  float: right;
+  margin-left:20px;
+  width: 300px;
+  height: 300px;
+}
+
+footer h2{
+  font-size: 20px
+}
+footer h3{
+  font-size: 15px;
+  font-weight: 15;
+}
+footer .tengah  img{
+  float: left;
+  width: 50px;
+}
+footer .tengah h3{
+  float: left;
+}
+.footer .tengah h3{
+  margin-top: 40px;
+}
+
+.borderabu {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.newstextinfo {
+  margin-left: 10px;
+}
+
+.tengahsatu, .tengahdua, .tengahtiga {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  height: 300px;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  border-top: solid gray 1px;
+}
+.copyright h5{
+  margin-top: 25px;
+  font-weight: lighter;
+  color: grey;
+  font-weight: bold;
+}
+.containerfooter .kiri .logo img:hover{
+  width: 51px;
+}
+
+input{
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.containerform{
+  height: 30px;
+}
+
+footer .kanan a{
+  margin-bottom: 16px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+footer .kanan h3{
+  margin-top: 49px;
+  font-size: 13px;
+}

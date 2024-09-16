@@ -1,0 +1,644 @@
+* { padding: 0; margin: 0;}
+
+.checked {
+  color: orange;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+}
+
+/* menu */
+menu {
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  color: black;
+}
+
+menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  line-height: 60px;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  text-align: justify;
+}
+
+nav ul li a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+nav ul li ul {
+  float: right;
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover > ul {
+  z-index: 1;
+  float: right;
+  background-color: white;
+  display: block;
+}
+
+nav {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+}
+
+nav ul li ul {
+  position: absolute;
+}
+
+nav ul li ul li {
+  float: none;
+  position: relative;
+  text-align: left;
+}
+nav ul ul ul {
+  right: 100%;
+  top: 0%;
+  width: 100px;
+}
+
+/* body */
+
+
+.bgcolor{
+  background-color: #F4F6F3;
+  height: 1425px;
+}
+
+/* container kiri */
+.containerkiri{
+  float: left;
+  width: 700px;
+}
+
+.containerkiri .home{
+  margin-top: 50px;
+  float: left;
+  width: 700px;
+  height: 100px;
+ 
+}
+.containerkiri .homekiri{
+width: 400px;
+float: left;
+}
+
+.containerkiri .home h1{
+  margin-bottom: 10px;
+  font-size: 10px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.containerkiri .home h2{
+  margin-bottom: 10px;
+}
+.containerkiri .homekanan  {
+  margin-top: 30px;
+  margin-right: 50px;
+  float: right;
+  background-color: antiquewhite;
+  
+}
+select {
+  padding-right: 10px;
+  background-color: white;
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.rowsatu .imagesatu img{
+  width: 200px;
+  margin-right: 20px;
+}
+.rowsatu  h5 {
+  font-size: 16px;
+}
+.rowsatu h4{
+  font-weight: 25;
+}
+.rowdua  h5 {
+  font-size: 16px;
+}
+.rowdua h4{
+  font-weight: 25;
+}
+.rowtiga  h5 {
+  font-size: 16px;
+}
+.rowtiga h4{
+  font-weight: 25;
+}
+/* rowsatu */
+.rowsatu .cart{
+  text-decoration: none;
+  background-color: black;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.rowsatu .tulisankiri{
+  float: left;
+}
+.rowsatu .tulisankiri h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowsatu .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowsatu .tulisantengah h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowsatu .tulisantengah h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowsatu .tulisankiri h5{
+  margin-bottom: 10px;
+}
+
+.rowsatu .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowsatu .tulisankanan h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowsatu .tulisankanan h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+.rowsatu .tulisantengah{
+  margin-left: 118px;
+  float: left;
+}
+.rowsatu .tulisankanan{
+  margin-left: 68px;
+  float: left;
+}
+
+.rowdua .imagedua img{
+  margin-top: 60px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.rowsatu .marginatas img{
+  margin-top: 60px;
+}
+
+
+/* rowdua */
+.rowdua .imagesatu img{
+  width: 200px;
+  margin-right: 20px;
+}
+.rowdua .cart{
+  text-decoration: none;
+  background-color: black;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  border-radius: 5px;
+}
+.rowdua .tulisankiri{
+  float: left;
+}
+.rowdua .tulisankiri h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowdua .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowdua .tulisantengah h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowdua .tulisantengah h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowdua .tulisankiri h5{
+  margin-bottom: 10px;
+}
+
+.rowdua .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowdua .tulisankanan h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowdua .tulisankanan h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+.rowdua .tulisantengah{
+  margin-left: 120px;
+  float: left;
+}
+.rowdua .tulisankanan{
+  margin-left: 110px;
+  float: left;
+}
+
+.rowdua .imagedua img{
+  margin-top: 60px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.rowdua .marginatas img{
+  margin-top: 60px;
+}
+
+/* rowtiga */
+.rowtiga .imagesatu img{
+  width: 200px;
+  margin-right: 20px;
+}
+.rowtiga .cart{
+  text-decoration: none;
+  background-color: black;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  border-radius: 5px;
+}
+.rowtiga .tulisankiri{
+  float: left;
+}
+.rowtiga .tulisankiri h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowtiga .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowtiga .tulisantengah h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowtiga .tulisantengah h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowtiga .tulisankiri h5{
+  margin-bottom: 10px;
+}
+
+.rowtiga .tulisankiri h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.rowtiga .tulisankanan h5{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rowtiga .tulisankanan h4{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+.rowtiga .tulisantengah{
+  margin-left: 120px;
+  float: left;
+}
+.rowtiga .tulisankanan{
+  margin-left: 110px;
+  float: left;
+}
+
+.rowtiga .imagedua img{
+  margin-top: 60px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.rowtiga .marginatas img{
+  margin-top: 60px;
+}
+
+.buton {
+  float: left;
+  width: 700px;
+  height: 100px;
+}
+.butontombol{
+  align-items: center;
+  margin-top: 200px;
+  width: 700px;
+  height: 50px;
+}
+
+.butontombol a{
+  color: black;
+  margin-right: 10px;
+  border: solid grey 1px;
+  text-align: center;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.butontombol .satu{
+  border: none;
+  margin-left: 300px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.buton a{
+  padding: 10px;
+}
+.buton h3{
+  padding: 10px;
+}
+
+
+/* container kanan */
+.containerkanan .atas{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.containerkanan{
+  margin-top: 50px;
+  float: right;
+  width: 300px;
+  height: 600px;
+  background-color: white;
+}
+
+.containerkanan .poto{
+  margin-top: 5px;
+  float: left;
+  width: 50px; 
+}
+
+.containerkanan img{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 50px; 
+}
+
+.containerkanan .tulisan a{
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 15px;
+  line-height: 62px;
+}
+
+.containerkanan .looking{
+  margin-top: 50px;
+  width: 300px;
+  height: 80px;
+}
+
+.containerkanan .looking h2{
+  margin-left: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.containerkanan .serch{
+  margin-left: 13px;
+}
+
+.containerkanan .serch  a{
+  float: left;
+  margin-left: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.containerkanan .followus {
+  padding-left: 23px;
+  width: 300px;
+  margin-top: 20px;
+  float: left;
+}
+
+.containerkanan .followus img{
+  width: 50px;
+  margin-left: 5px;
+  float: left;
+}
+.containerkanan .followus h2{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.containerkanan .followus img:hover{
+  width: 55px;
+  margin-left: 5px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+  font-family: Inter,Lato,helvetica,arial,sans-serif;;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .containerfooter {
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+  background-color: black
+}
+
+footer .kiri {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+footer .kiri .logo img{
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+footer .kiri .logo .dua {
+  left: 5%;
+}
+footer .kiri .logo .satu {
+  left: 0%;
+}
+footer .kiri .logo .tiga {
+  left: 10%;
+}
+footer .kiri .logo .empat {
+  left: 15%;
+}
+
+footer .tengah {
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
+  width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .kanan {
+  margin-top: 50px;
+  float: right;
+  margin-left:20px;
+  width: 300px;
+  height: 300px;
+}
+
+footer h2{
+  font-size: 20px
+}
+footer h3{
+  font-size: 15px;
+  font-weight: 15;
+}
+footer .tengah  img{
+  float: left;
+  width: 50px;
+}
+footer .tengah h3{
+  float: left;
+}
+.footer .tengah h3{
+  margin-top: 40px;
+}
+
+.borderabu {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.newstextinfo {
+  margin-left: 10px;
+}
+
+.tengahsatu, .tengahdua, .tengahtiga {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  height: 300px;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  border-top: solid gray 1px;
+}
+.copyright h5{
+  margin-top: 25px;
+  font-weight: lighter;
+  color: grey;
+  font-weight: bold;
+}
+.containerfooter .kiri .logo img:hover{
+  width: 51px;
+}
+
+input{
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.containerform{
+  height: 30px;
+}
+
+footer .kanan a{
+  margin-bottom: 16px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+footer .kanan h3{
+  margin-top: 49px;
+  font-size: 13px;
+}
